@@ -71,6 +71,19 @@ body{
 	text-decoration: none;
 	font-size: 18px;
 }
+
+#navbar a
+{
+ text-decoration:none;
+ color:white;
+}
+
+#navbar a:hover
+{
+	text-decoration:underline;
+	color:red;
+}
+
 #main-footer{
 	background: #333;
 	color: #fff;
@@ -89,4 +102,12 @@ body{
 	}
 }
 
+#navbar .log
+{
+	margin-left:980px;
+	background-color:black;
+	color:black;
+	border-radius:5px;
+	text-decoration:underline;
+}
 
